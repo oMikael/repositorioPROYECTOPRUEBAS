@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EXFINAL</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+  <section id="container-form">
+    <div id="form">
+      <h1>Create Article</h1>
+      <div class="input_wrap">
+        <input id="nombre" type="text" name="nombre" placeholder="Nombre de articulo">
+      </div>
+      <div class="input_wrap">
+        <input id="precio" type="text" name="precio" placeholder="Precio">
+      </div>
+      <div class="input_wrap">
+        <input id="descripcion" type="text" name="descripcion" placeholder="Descripcion">
+      </div>
+      <div class="input_wrap">
+        <input id="stock" type="text" name="stock" placeholder="Cantidad en stock">
+      </div>
+      <div class="input_wrap">
+        <label for="acrilico">Acrilico</label>
+        <input checked type="radio" Name="tipo" id="acrilico" Value="acrilico">
+        <label for="carta">Carta</label>
+        <input type="radio" Name="tipo" id="carta" Value="carta">
+        <label for="marbled">Marbled</label>
+        <input type="radio" Name="tipo" id="marbled" Value="marbled">
+        <label for="foiled">Foiled</label>
+        <input type="radio" Name="tipo" id="foiled" Value="foiled">
+      </div>
+      <button id="createArticleButton">Create article</button>
+      <div id="signup_option">or <a href="index.html">go back to login page</a></div>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/lib/jquery.js" ></script>
+  <script type="text/javascript" src="js/js.js"></script>
+  <script type="text/javascript" src="js/articulo.js"></script>
+</body>
+</html>
